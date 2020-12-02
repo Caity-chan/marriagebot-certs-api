@@ -57,7 +57,7 @@ app.get('/certs/marriage', jsonBodyParser, function (req, res) {
         });
 });
 app.get('/certs/adoption', jsonBodyParser, function (req, res) {
-    var fileName = 'yes.png';
+    var fileName = 'marriage_cert.png';
     var imageCaption = 'Official Adoption Certificate';
     var imageCaptiona = "Parent: " + req.query.parenta; //var imageCaptionb = "Parent 2: " + req.query.parentb;
     var imageCaptionc = "Child: " + req.query.child;
