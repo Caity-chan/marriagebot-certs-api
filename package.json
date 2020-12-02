@@ -1,0 +1,28 @@
+{
+  "name": "marriagebot-certs-api",
+  "version": "1.0.0",
+  "description": "A image API that generates fake marriage and adoption \"certificates\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caity-chan/marriagebot-certs-api.git"
+  },
+  "keywords": [
+    "API",
+    "Image",
+    "Generation"
+  ],
+  "author": "Caity-Chan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Caity-chan/marriagebot-certs-api/issues"
+  },
+  "homepage": "https://github.com/Caity-chan/marriagebot-certs-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
