@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 const fs = require('fs')
 var Jimp = require("jimp");
 app.get('/certs/marriage', jsonBodyParser, function (req, res) {
-    var fileName = 'yes.png';
+    var fileName = 'marriage_cert.png';
     var imageCaption = 'Official Marriage Certificate';
     var imageCaptiona = req.query.usera; var imageCaptionb = req.query.userb;
     if (!req.query.timestamp) {
